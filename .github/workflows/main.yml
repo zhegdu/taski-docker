@@ -57,6 +57,7 @@ jobs:
       - name: Push to DockerHub
         uses: docker/build-push-action@v4
         with:
-        context: ./taski-docker/backend/
+          context: ./taski-docker/backend/
+          dockerfile: ./taski-docker/backend/Dockerfile
           push: true
           tags: zhegdu/taski_backend:latest
