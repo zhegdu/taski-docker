@@ -1,0 +1,2 @@
+def qwerty():
+    pass
